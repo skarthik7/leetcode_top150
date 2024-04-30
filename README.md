@@ -2,6 +2,10 @@
 <strong>Clone this repo:</strong>
 <pre><code>git clone https://github.com/skarthik/leetcode_top150.git</code></pre>
 
+<h2>Problems</h2>
+
+<p>From classics like 'Two Sum' to the epic 'Longest Palindromic Substring', they’re all here. Check out the complete list <a href="https://leetcode.com/studyplan/top-interview-150/">here</a>.</p>
+
 <h2>Contributing</h2>
 <p>Got a slicker solution? Fork it, branch it, push it, pull-request it!</p>
 
