@@ -1,11 +1,10 @@
 class Solution:
-   def groupAnagrams(self, strs):
-        result = collections.defaultdict(list)
-        #print(ans)
-        
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        anagrams = {}
         for s in strs:
-            count_letters = [0] * 26
-            for c in s:
-                count_letters[ord(c) - ord("a")] += 1
-            result[tuple(count_letters)].append(s)
-        return result.values()
+            sorted_s = "".join(sorted(s))
+            if sorted_s not in anagrams:
+                anagrams[sorted_s] = [s]
+            else:
+                anagrams[sorted_s].append(s)
+        return list(anagrams.values())
