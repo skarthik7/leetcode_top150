@@ -15,5 +15,4 @@ class Solution:
                 if grid[row][col] == '1':
                     dfs(grid, row, col)
                     islands += 1
-
         return islands
