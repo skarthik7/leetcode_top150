@@ -1,6 +1,6 @@
 class TrieNode:
     def __init__(self):
-        self.is_word = False
+        self.is_word = False # True when it is the last character of a word
         self.children = {}
 
 class Trie:
