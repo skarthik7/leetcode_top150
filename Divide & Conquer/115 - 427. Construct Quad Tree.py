@@ -13,3 +13,4 @@ class Node:
 class Solution:
     def construct(self, grid: List[List[int]]) -> 'Node':
         # TODO
+        pass
