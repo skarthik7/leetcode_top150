@@ -16,6 +16,5 @@ class Solution:
                     g = gcd(dx, dy)
                     slope = (dx // g, dy // g)
                     count[slope] = count.get(slope, 0) + 1
-                    max_points = max(max_points, count[slope])
-            max_points = max(max_points, same)
+            max_points = max(max_points, max(count.values(), default=0) + same)
         return max_points
