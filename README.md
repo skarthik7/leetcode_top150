@@ -1,4 +1,4 @@
-<h1>LeetCode Top 150 Solutions</h2>
+<h1>LeetCode Top Interview 150 Solutions</h2>
 <strong>Clone this repo:</strong>
 <pre><code>git clone https://github.com/skarthik/leetcode_top150.git</code></pre>
 
