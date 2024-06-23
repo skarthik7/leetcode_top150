@@ -9,8 +9,9 @@ class Solution:
             for i in range(1, len(prices)):
                 profit += max(prices[i] - prices[i - 1], 0)
             return profit 
-        dp = [[0] * n for _ in range(k + 1)]
-
+        dp = []
+        for i in range(k + 1):
+            dp.append([0] * n)
         for i in range(1, k + 1):
             max_diff = -prices[0]  
             for j in range(1, n):
