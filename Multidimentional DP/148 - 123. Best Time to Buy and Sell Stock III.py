@@ -2,7 +2,7 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices:
             return 0
-        
+
         buy1= float('-inf')
         sell1 = 0
         buy2 = float('-inf')
@@ -15,3 +15,5 @@ class Solution:
             buy1 = max(buy1, -price)
 
         return sell2
+
+# Time complexity: O(N)
