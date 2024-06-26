@@ -21,3 +21,4 @@ class Solution:
                     visited.add(next_s)
                     queue.append((next_s, moves + 1))
         return -1
+# Time complexity: O(N^2)
