@@ -19,3 +19,5 @@ class Solution:
                 max_diff = max(max_diff, dp[i-1][j] - prices[j]) 
 
         return dp[k][n-1]
+
+# Time complexity: O(N * K)
