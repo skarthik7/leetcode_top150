@@ -21,3 +21,5 @@ class Solution:
             depth += 1
             node = node.left if isLeft else node.right
         return depth
+
+# Time Complexity: O(log(N)^2)
